@@ -26,4 +26,3 @@ for link in soup.find_all('h3'):
         file.write(a[2:len(a)-3]+"\n")
         file.write(d[c].get_text()+"\n")
     c+=1
-
